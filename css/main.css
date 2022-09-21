@@ -40,21 +40,21 @@ aside.sidebar {
     background-color: hsla(61, 100%, 76%, 0.9);
 }
 
-/*-layout*/
+/*-layout-*/
 div, article, section, header, nav, figure, li {
     position: relative;
 }
 
 header h1 {
     position: relative;
-    left: 100px;
+    left: 35px;
 }
 
 aside.sidebar {
     position: absolute;
-    top: 3%;
+    top: 1%;
     right: 0%;
-    width: 27%
+    width: 45%;
 }
 
 footer {
@@ -62,4 +62,66 @@ footer {
     width: 30%;
     left: 30%;
     bottom: 0px;
+}
+
+section.intro {
+    width: 55%;
+}
+
+div.explanation {
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+div.participation {
+    margin-left: 50%;
+    width: 40%;
+    padding: 15px;
+}
+
+div.benefits {
+    float: left;
+    top: 100px;
+    width: 45%;
+    padding: 15px;
+}
+
+div.requirements {
+    margin-left: 50%;
+    width: 40%;
+    padding: 5%;
+}
+
+/*-font-*/
+body {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+/*-local font-*/
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/chunkfive.woff');
+}
+
+header h1 {
+    font-family: 'myfont';
+    text-indent: -9999px;
+    background-image: url(../img/zengarden.gif);
+}
+
+a {
+    text-decoration: none;
+    color: hsla(162, 24%, 65%, 0.9)
+}
+
+h3 {
+    font-size: 2.25em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+h2 {
+
 }
